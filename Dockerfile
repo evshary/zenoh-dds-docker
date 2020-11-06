@@ -25,3 +25,4 @@ RUN apt-get install -y \
 
 # Environment
 ENV LD_LIBRARY_PATH /usr/local/lib/
+WORKDIR /zenoh-plugin-dds
