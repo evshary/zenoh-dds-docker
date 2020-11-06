@@ -24,7 +24,6 @@ docker run --rm -it zenoh-dds bash
 # After enter docker, use tmux
 # 1st terminal: Run zenoh
 source $HOME/.cargo/env
-export LD_LIBRARY_PATH=/usr/local/lib/
 cargo run -- --scope /demo/dds -e tcp/127.0.0.1:7447
 # 2nd terminal: Run ROS
 source /opt/ros/foxy/local_setup.bash
@@ -36,7 +35,6 @@ docker run --rm -it zenoh-dds bash
 # After enter docker, use tmux
 # 1st terminal: Run zenoh
 source $HOME/.cargo/env
-export LD_LIBRARY_PATH=/usr/local/lib/
 cargo run -- --scope /demo/dds -e tcp/127.0.0.1:7447
 # 2nd terminal: Run ROS
 source /opt/ros/foxy/local_setup.bash
