@@ -10,7 +10,6 @@ docker pull eclipse/zenoh:latest
 
 ```
 docker image build -t zenoh-dds .
-docker image build -t zenoh-dds .
 ```
 
 * Run
